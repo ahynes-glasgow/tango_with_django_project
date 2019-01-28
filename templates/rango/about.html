@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+{% load staticfiles %}
+
 <html>
 
     <head>
@@ -13,12 +16,12 @@
         </div>
         <div>
             <img src="{{ MEDIA_URL}}cat.jpg"
-                alt="Picture of a Rango with an egg" />
+                alt="Picture of a cat" />
         </div>
         <div>
             <a href="/rango/">Index</a><br />
             <img src="{% static "images/rango_with_egg.jpg" %}"
-                alt="Picture of a cat" />
+                alt="Picture of Rango with an Egg" />
         </div>
     </body>
 
